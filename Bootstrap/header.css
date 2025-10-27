@@ -1,0 +1,29 @@
+header
+{
+    background-color: rgb(149, 151, 241);
+    font-weight: bold;
+    color: black;
+}
+.Bonito
+{
+    padding: 10px;
+    margin: 10px;
+}
+.Login
+{
+    border-color: transparent;
+    background-color: rgb(248, 76, 76);
+    color: black;
+}
+.nav-link
+{
+    color: #ffffff;
+}
+.nav-link:hover
+{
+    color: #ff00ff;
+}
+.elegido
+{
+    color: #000000;
+}
