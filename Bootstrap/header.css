@@ -4,11 +4,15 @@ header
     font-weight: bold;
     color: black;
 }
-.Bonito
+.Navegador
 {
-    padding: 10px;
-    margin: 10px;
+    background-color: rgb(149, 151, 241);
 }
+body
+{
+    background-color: #97F195;
+}
+
 .Login
 {
     border-color: transparent;
@@ -26,4 +30,86 @@ header
 .elegido
 {
     color: #000000;
+}
+.divGrande
+{
+    min-height: 90vh;
+}
+.left-div {
+    background-color: #EF95F1;
+    height: 80vh;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 15%;
+    max-width: 15%;
+    top: 10%;
+    left: 1%;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ffc107 #0056b3;
+}
+
+.left-div img {
+    width: 80%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.right-div {
+    background-color: #EF95F1;
+    height: 80vh;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 15%;
+    max-width: 15%;
+    top: 10%;
+    bottom: 10%;
+    right: 1%;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ffc107 #0056b3;
+}
+.right-div img {
+    width: 80%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.centroDivTexto
+{
+    background-color: #EF95F1;
+    left: 30%;
+    border-radius: 5px;
+    top: 10%;
+    height: 80vh;
+    padding: 4rem;
+    position: fixed;
+    min-width: 20%;
+    max-width: 40%;
+    color: white;
+    text-align: center;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ffc107 #0056b3;
+}
+hr
+{
+    color: black;
+}
+footer
+{
+    height:6vh;
+    background-color: rgb(149, 151, 241);
+}
+.left-div-footer
+{
+    font-size: 10px;
+}
+.footer-title
+{
+    font-size:1.5rem;
 }
